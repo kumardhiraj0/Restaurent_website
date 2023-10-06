@@ -476,3 +476,94 @@ body {
     padding-top: 8px;
     line-height: 13px;
 }
+
+/* Section 6 */
+
+.letter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.letter-head {
+    flex: 0.5;
+}
+
+.letter-head h2 {
+    font-size: 30px;
+}
+
+.letter-head span {
+    color: red;
+}
+
+.letter-input {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex: 0.5;
+}
+
+.letter-input div {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 219, 185);
+}
+
+.letter-input input {
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    width: 100%;
+    border: none;
+    background-color: rgb(255, 219, 185);
+}
+
+.letter-input .red_btn {
+    margin: 0;
+    font-size: 18px;
+    box-shadow: none;
+    border-radius: 0 10px 10px 0;
+}
+
+
+/* Footer Start here  */
+
+.footer {
+    padding: 60px 0;
+    border-top: 2px solid rgb(252, 184, 107);
+    background-color: rgb(252, 222, 195);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-1 .logo img {
+    width: 200px;
+}
+
+.footer-1 p {
+    cursor: pointer;
+    font-size: 14px;
+    padding: 2px;
+    color: rgb(255, 137, 2);
+}
+
+.footer-2 {
+    text-align: center;
+    cursor: pointer;
+}
+
+.footer-2 h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer-2 img {
+    width: 50px;
+    margin-bottom: 15px;
+}
+
